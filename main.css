@@ -1,0 +1,46 @@
+/* Layout / Globals */
+
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: black;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 2.5fr 1fr;
+  grid-template-areas:
+  'header header'
+  'main aside'
+}
+
+/* Header */
+
+header {
+  font-size: 48px;
+  grid-area: header;
+  background-color: coral;
+}
+
+/* Main Container */
+
+main {
+  margin-left: 5em;
+  margin-top: 1.5em;
+  grid-area: main;
+  background-color: cornsilk;
+}
+
+/* Aside Container */
+
+aside {
+  margin-left: 1.5em;
+  margin-right: 5em;
+  margin-top: 1.5em;
+  grid-area: aside;
+  background-color: darkseagreen;
+}
+
+/* Typography / fonts */
