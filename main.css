@@ -3,7 +3,8 @@
 html, body {
   box-sizing: border-box;
   margin: 0;
-  background-color: black;
+  background-color:rgb(24, 24, 24);
+  background-color: #181818;
 }
 
 .wrapper {
@@ -19,22 +20,26 @@ html, body {
 /* Header */
 
 header {
+  position: fixed;
+  width: 100%;
   font-size: 48px;
   grid-area: header;
-  background-color: coral;
+  background-color: #202020;
+  padding: 7px;
 }
 
 .main-logo {
-  width: 10%;
+  width: 80px;
 }
 
 /* Main Container */
 
 main {
   margin-left: 5em;
-  margin-top: 1.5em;
+  margin-top: 8em;
   grid-area: main;
-  background-color: cornsilk;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Aside Container */
@@ -42,9 +47,14 @@ main {
 aside {
   margin-left: 1.5em;
   margin-right: 5em;
-  margin-top: 1.5em;
+  margin-top: 8em;
   grid-area: aside;
   background-color: darkseagreen;
 }
 
 /* Typography / fonts */
+
+html {
+  color: white;
+  font-family: Roboto, Arial, sans-serif;
+}
