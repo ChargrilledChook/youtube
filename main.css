@@ -9,6 +9,7 @@ html, body {
 
 .wrapper {
   height: 100vh;
+  width: auto;
   display: grid;
   grid-template-rows: auto 1fr;
   grid-template-columns: 2.5fr 1fr;
@@ -17,19 +18,35 @@ html, body {
   'main aside'
 }
 
+/* Typography / fonts */
+
+html, body {
+  color: white;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1.3;
+}
+
+
 /* Header */
 
 header {
   position: fixed;
   width: 100%;
-  font-size: 48px;
   grid-area: header;
   background-color: #202020;
   padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
 }
 
 .main-logo {
   width: 80px;
+}
+
+.right-nav {
+  display: flex;
+  padding-right: 50px;
 }
 
 /* Main Container */
@@ -40,6 +57,7 @@ main {
   grid-area: main;
   display: flex;
   flex-direction: column;
+  background-color: #3b3f3f;
 }
 
 /* Aside Container */
@@ -49,12 +67,11 @@ aside {
   margin-right: 5em;
   margin-top: 8em;
   grid-area: aside;
-  background-color: darkseagreen;
+  background-color: #3b3f3f;
 }
 
-/* Typography / fonts */
-
-html {
-  color: white;
-  font-family: Roboto, Arial, sans-serif;
+.prev-card {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
 }
