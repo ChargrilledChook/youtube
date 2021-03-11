@@ -41,7 +41,6 @@ header {
 
 .left-nav {
   display: flex;
-  align-items:
 }
 
 .hamburger {
@@ -56,6 +55,7 @@ header {
 
 .search-bar {
   display: flex;
+  align-items: center;
 }
 
 .search-bar > input {
@@ -77,11 +77,14 @@ header {
 
 .search-icon {
   width: 60px;
+  height: 32px;
+  border: 1px solid #3b3f3f;
   background-color: #3b3f3f;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   display: grid;
   place-items: center;
+  margin-right: 12px;
 }
 
 .search-icon > img {
