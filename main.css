@@ -59,6 +59,7 @@ header {
 .search-bar {
   display: flex;
   align-items: center;
+  flex-grow: 0.5;
 }
 
 .search-bar > input {
@@ -71,6 +72,7 @@ header {
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   height: 30px;
+  width: 100%;
 }
 
 .search-bar > input:focus {
