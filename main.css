@@ -129,6 +129,25 @@ main {
   background-color: #3b3f3f;
 }
 
+main h1 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.vid-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.views {
+  font-size: 1em;
+  color: rgb(170, 170, 170);
+  margin-bottom: 12px;
+}
+
+.likes {
+
+}
 /* Aside Container */
 
 aside {
