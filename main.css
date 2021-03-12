@@ -126,7 +126,11 @@ main {
   grid-area: main;
   display: flex;
   flex-direction: column;
-  background-color: #3b3f3f;
+  /* background-color: #3b3f3f; */
+}
+
+iframe {
+  margin-bottom: 18px;
 }
 
 main h1 {
@@ -137,19 +141,32 @@ main h1 {
 .vid-info {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #3b3f3f;
+  color: rgb(170, 170, 170);
 }
 
 .views {
+  display: flex;
+  align-items: center;
   font-size: 1em;
-  color: rgb(170, 170, 170);
-  margin-bottom: 12px;
 }
 
 .likes {
+  font-weight: 900;
   width: 370px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.likes div {
+  display: flex;
+  align-items: center;
+}
+
+.likes > div > :first-child {
+  margin-right: 6px;
 }
 /* Aside Container */
 
