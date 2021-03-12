@@ -180,6 +180,10 @@ aside {
 
 .prev-card {
   display: flex;
-  margin: 5px;
-  padding: 5px;
+  margin: 0 5px 5px 5px;
+  padding: 0 5px 5px 5px;
+}
+
+.prev-card :first-child {
+  margin-right: 8px;
 }
