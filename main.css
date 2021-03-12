@@ -111,9 +111,6 @@ header {
   border: 1px solid transparent;
   border-radius: 50%;
   overflow: hidden;
-  /* background: url('assets/stardewchicken.png') no-repeat center;
-  overflow: hidden;
-  background-size: cover; */
 }
 
 .profile-icon > img {
